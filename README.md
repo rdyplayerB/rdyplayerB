@@ -5,16 +5,16 @@
 
 <br clear="all">
 
-## // About Me
+### // About Me
 
 - **Current**: Building at [Arx Research](https://arxresearch.com) / [Burner](https://burner.pro)
 - **Previous**: ex-[0x](https://0x.org), [Matcha.xyz](https://matcha.xyz)
 - **Projects**: [OpenBurner.xyz](https://openburner.xyz), [Grokblock.app](https://grokblock.app), [Gelp.app](https://gelp.app)
 - **Focus**: Web3 infrastructure, AI applications, and user experience
 
-<img src="![Isometric Commit Calendar](https://raw.githubusercontent.com/rdyplayerB/rdyplayerB/main/metrics.plugin.isocalendar.svg)" width="300" alt="rdyplayerB" align="left" hspace="20">
+[Isometric Commit Calendar](https://raw.githubusercontent.com/rdyplayerB/rdyplayerB/main/metrics.plugin.isocalendar.svg) width="300" alt="rdyplayerB" align="left" hspace="20">
 
-## // Let's chat
+### // Let's chat
 
 - [rdyplayerB@gmail.com](mailto:rdyplayerB@gmail.com)
 - [github.com/rdyplayerB](https://github.com/rdyplayerB)
