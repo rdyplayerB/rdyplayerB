@@ -5,8 +5,9 @@
 
 <br clear="all">
 
-<div style="display: flex; gap: 20px;">
-<div style="flex: 1;">
+<table style="border: none; border-collapse: collapse; width: 100%;">
+<tr style="border: none;">
+<td style="border: none; padding: 0; width: 50%; vertical-align: top;">
 
 ## // About Me
 
@@ -15,13 +16,14 @@
 - **Projects**: [OpenBurner.xyz](https://openburner.xyz), [Grokblock.app](https://grokblock.app), [Gelp.app](https://gelp.app)
 - **Focus**: Web3 infrastructure, AI applications, and user experience
 
-</div>
-<div style="flex: 1;">
+</td>
+<td style="border: none; padding: 0; width: 50%; vertical-align: top;">
 
 ![Isometric Commit Calendar](https://raw.githubusercontent.com/rdyplayerB/rdyplayerB/main/metrics.plugin.isocalendar.svg)
 
-</div>
-</div>
+</td>
+</tr>
+</table>
 
 ## // Let's chat
 
