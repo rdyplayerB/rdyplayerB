@@ -14,10 +14,9 @@
 <img src="https://raw.githubusercontent.com/rdyplayerB/rdyplayerB/main/metrics.plugin.isocalendar.svg)" width="300" alt="rdyplayerB" align="left" hspace="20">
 
 
-<img src="https://raw.githubusercontent.com/rdyplayerB/rdyplayerB/main/metrics.plugin.isocalendar.svg" alt="Isometric Commit Calendar" width="100%">
-=======
-https://raw.githubusercontent.com/rdyplayerB/rdyplayerB/main/metrics.plugin.isocalendar.svg
->>>>>>> 8119ecb7d33915f199e2968c76bd2ccb5528753e
+<img src="https://raw.githubusercontent.com/rdyplayerB/rdyplayerB/main/metrics.plugin.isocalendar.svg" alt="Isometric Commit Calendar" width="50%" align="right">
+
+
 
 ### // Let's chat
 
