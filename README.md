@@ -1,16 +1,16 @@
 <img src="rdyplayerB.png" width="300" alt="rdyplayerB" align="right" hspace="20">
 
-## Aloha, I'm Brent! 🤙
+### Aloha, I'm Brent! 🤙
 <p>Generalist operator | Web3 + AI builder | Customer success, community, growth</p>
 
-## // About Me
+### // About Me
 
 - **Current**: Building at [Arx Research](https://arxresearch.com) / [Burner](https://burner.pro)
 - **Previous**: ex-[0x](https://0x.org), [Matcha.xyz](https://matcha.xyz)
 - **Projects**: [OpenBurner.xyz](https://openburner.xyz), [Grokblock.app](https://grokblock.app), [Gelp.app](https://gelp.app)
 - **Focus**: Web3 infrastructure, AI applications, and user experience
 
-## // Let's chat
+### // Let's chat
 
 - [rdyplayerB@gmail.com](mailto:rdyplayerB@gmail.com)
 - [github.com/rdyplayerB](https://github.com/rdyplayerB)
