@@ -1,6 +1,6 @@
 <img src="rdyplayerB.png" width="300" alt="rdyplayerB" align="left" hspace="20">
 
-<h1>Aloha, I'm Brent! 🤙</h1>
+<h3>Aloha, I'm Brent! 🤙</h3>
 <br>
 <p><strong>Generalist operator | Web3 + AI builder | Customer success, community, growth</strong></p>
 
