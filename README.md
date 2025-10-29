@@ -14,11 +14,11 @@
 ![Isometric Commit Calendar](https://raw.githubusercontent.com/rdyplayerB/rdyplayerB/main/metrics.plugin.isocalendar.svg)
 
 ### // Let's chat
-<br>/ [rdyplayerB@gmail.com](mailto:rdyplayerB@gmail.com)
-<br>/ [github.com/rdyplayerB](https://github.com/rdyplayerB)
-<br>/ [linkedin.com/in/brentoshiro](https://linkedin.com/in/brentoshiro)
-<br>/ [x.com/rdyplayerB](https://x.com/rdyplayerB)
-<br>/ [farcaster.xyz/rdyplayerb](https://farcaster.xyz/rdyplayerb)
+- [rdyplayerB@gmail.com](mailto:rdyplayerB@gmail.com)
+- [github.com/rdyplayerB](https://github.com/rdyplayerB)
+- [linkedin.com/in/brentoshiro](https://linkedin.com/in/brentoshiro)
+- [x.com/rdyplayerB](https://x.com/rdyplayerB)
+- [farcaster.xyz/rdyplayerb](https://farcaster.xyz/rdyplayerb)
 
 ---
 
