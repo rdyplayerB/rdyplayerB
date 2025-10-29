@@ -5,6 +5,10 @@
 
 <br clear="all">
 
+<table>
+<tr>
+<td width="50%">
+
 ## // About Me
 
 - **Current**: Building at [Arx Research](https://arxresearch.com) / [Burner](https://burner.pro)
@@ -12,7 +16,14 @@
 - **Projects**: [OpenBurner.xyz](https://openburner.xyz), [Grokblock.app](https://grokblock.app), [Gelp.app](https://gelp.app)
 - **Focus**: Web3 infrastructure, AI applications, and user experience
 
+</td>
+<td width="50%">
+
 ![Isometric Commit Calendar](https://raw.githubusercontent.com/rdyplayerB/rdyplayerB/main/metrics.plugin.isocalendar.svg)
+
+</td>
+</tr>
+</table>
 
 ## // Let's chat
 
