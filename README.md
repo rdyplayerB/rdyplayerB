@@ -14,7 +14,6 @@ Generalist operator | Web3 + AI builder | Customer success, community, growth
 
 <div style="clear: both;"></div>
 
-
 <table style="border: 0; border-collapse: collapse; width: 100%; border-spacing: 0;">
 <tr style="border: 0;">
 <td style="border: 0; padding: 0; width: 50%; vertical-align: top;">
