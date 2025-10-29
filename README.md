@@ -11,6 +11,8 @@ Generalist operator | Web3 + AI builder | Customer success, community, growth
 
 <img src="https://raw.githubusercontent.com/rdyplayerB/rdyplayerB/main/metrics.plugin.isocalendar.svg" alt="Isometric Commit Calendar" width="75%" alt="rdyplayerB" align="left" hspace="20">
 
+<br clear="all">
+
 ### // Let's chat
 
 - [rdyplayerB@gmail.com](mailto:rdyplayerB@gmail.com)
