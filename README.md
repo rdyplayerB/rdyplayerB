@@ -15,20 +15,10 @@
 
 ### // Let's Chat
 
-```
-.
-<<<<<<< HEAD
 ├── [rdyplayerB@gmail.com](mailto:rdyplayerB@gmail.com)
 ├── [github.com/rdyplayerB](https://github.com/rdyplayerB)
 ├── [linkedin.com/in/brentoshiro](https://linkedin.com/in/brentoshiro)
 └── [x.com/rdyplayerB](https://x.com/rdyplayerB)
-=======
-├── rdyplayerB@gmail.com
-├── linkedin.com/in/brentoshiro
-├── x.com/rdyplayerB
-└── farcaster.xyz/rdyplayerB
->>>>>>> 15e861d3ccecd4cf7f18508af6c86ca08dc9d762
-```
 
 ---
 
