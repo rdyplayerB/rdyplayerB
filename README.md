@@ -1,14 +1,10 @@
-<table border="0">
-<tr>
-<td width="300">
-<img src="rdyplayerB.png" width="300" alt="rdyplayerB">
-</td>
-<td>
+<div>
+<img src="rdyplayerB.png" width="300" alt="rdyplayerB" style="float: left; margin-right: 20px;">
+<div>
 <h2>Aloha, I'm Brent! 🤙</h2>
 <p><strong>Generalist operator | Web3 + AI builder | Customer success, community, growth</strong></p>
-</td>
-</tr>
-</table>
+</div>
+</div>
 
 ---
 
