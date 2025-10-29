@@ -1,4 +1,5 @@
 <img src="rdyplayerB.png" width="300" alt="rdyplayerB" align="left" hspace="20">
+<clear all>
 
 ### // Aloha, I'm Brent! 🤙
 Generalist operator | Web3 + AI builder | Customer success, community, growth
