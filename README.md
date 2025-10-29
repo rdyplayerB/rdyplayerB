@@ -5,9 +5,9 @@
 
 <br clear="all">
 
-<table style="border: none; border-collapse: collapse; width: 100%;">
-<tr style="border: none;">
-<td style="border: none; padding: 0; width: 50%; vertical-align: top;">
+<table style="border: 0; border-collapse: collapse; width: 100%; border-spacing: 0;">
+<tr style="border: 0;">
+<td style="border: 0; padding: 0; width: 50%; vertical-align: top;">
 
 ## // About Me
 
@@ -17,7 +17,7 @@
 - **Focus**: Web3 infrastructure, AI applications, and user experience
 
 </td>
-<td style="border: none; padding: 0; width: 50%; vertical-align: top;">
+<td style="border: 0; padding: 0; width: 50%; vertical-align: top;">
 
 ![Isometric Commit Calendar](https://raw.githubusercontent.com/rdyplayerB/rdyplayerB/main/metrics.plugin.isocalendar.svg)
 
