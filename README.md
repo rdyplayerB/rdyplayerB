@@ -1,10 +1,14 @@
-<div align="center">
-  <img src="rdyplayerB.png" width="200" alt="rdyplayerB" align="left" style="margin-right: 20px;">
-  <div align="left">
-    <h2>Aloha, I'm Brent! 🤙</h2>
-    <p><strong>Generalist operator | Web3 + AI builder | Customer success, community, growth</strong></p>
-  </div>
-</div>
+<table>
+<tr>
+<td width="200">
+<img src="rdyplayerB.png" width="200" alt="rdyplayerB">
+</td>
+<td>
+<h2>Aloha, I'm Brent! 🤙</h2>
+<p><strong>Generalist operator | Web3 + AI builder | Customer success, community, growth</strong></p>
+</td>
+</tr>
+</table>
 
 ---
 
