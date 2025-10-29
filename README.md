@@ -1,5 +1,5 @@
-<div>
-<img src="rdyplayerB.png" width="300" alt="rdyplayerB" style="float: left; margin-right: 20px;">
+<div style="display: flex; align-items: center;">
+<img src="rdyplayerB.png" width="300" alt="rdyplayerB" style="margin-right: 20px;">
 <div>
 <h2>Aloha, I'm Brent! 🤙</h2>
 <p><strong>Generalist operator | Web3 + AI builder | Customer success, community, growth</strong></p>
