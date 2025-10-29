@@ -4,13 +4,13 @@ Welcome to my GitHub profile! Here you'll find my coding journey, projects, and 
 
 ## 📅 Isometric Commit Calendar
 
-![Isometric Commit Calendar](https://github.com/rdyplayerB/rdyplayerB/blob/main/metrics.plugin.isocalendar.svg)
+![Isometric Commit Calendar](https://raw.githubusercontent.com/rdyplayerB/rdyplayerB/main/metrics.plugin.isocalendar.svg)
 
 *Beautiful 3D visualization of my commit activity over the past year*
 
 ## 📊 GitHub Metrics Overview
 
-![GitHub Metrics](https://github.com/rdyplayerB/rdyplayerB/blob/main/metrics.svg)
+![GitHub Metrics](https://raw.githubusercontent.com/rdyplayerB/rdyplayerB/main/metrics.svg)
 
 ## 🚀 About Me
 
