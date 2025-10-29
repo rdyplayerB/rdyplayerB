@@ -1,9 +1,7 @@
-<img src="rdyplayerB.png" width="300" alt="rdyplayerB" align="left" hspace="20">
+<img src="rdyplayerB.png" width="300" alt="rdyplayerB" align="right" hspace="20">
 
-<h2>Aloha, I'm Brent! 🤙</h2>
-<p><strong>Generalist operator | Web3 + AI builder | Customer success, community, growth</strong></p>
-
-<div style="clear: both;"></div>
+## Aloha, I'm Brent! 🤙
+<p>Generalist operator | Web3 + AI builder | Customer success, community, growth</p>
 
 ## // About Me
 
@@ -19,7 +17,3 @@
 - [linkedin.com/in/brentoshiro](https://linkedin.com/in/brentoshiro)
 - [x.com/rdyplayerB](https://x.com/rdyplayerB)
 - [farcaster.xyz/rdyplayerb](https://farcaster.xyz/rdyplayerb)
-
----
-
-⭐ From [rdyplayerB](https://github.com/rdyplayerB)
