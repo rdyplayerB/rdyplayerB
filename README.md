@@ -12,7 +12,7 @@
 - **Projects**: [OpenBurner.xyz](https://openburner.xyz), [Grokblock.app](https://grokblock.app), [Gelp.app](https://gelp.app)
 - **Focus**: Web3 infrastructure, AI applications, and user experience
 
-[Isometric Commit Calendar](https://raw.githubusercontent.com/rdyplayerB/rdyplayerB/main/metrics.plugin.isocalendar.svg) width="300" alt="rdyplayerB" align="left" hspace="20">
+<[Isometric Commit Calendar](https://raw.githubusercontent.com/rdyplayerB/rdyplayerB/main/metrics.plugin.isocalendar.svg) width="300" alt="rdyplayerB" align="left" hspace="20">
 
 ### // Let's chat
 
