@@ -11,7 +11,7 @@
 - **Previous**: ex-[0x](https://0x.org), [Matcha.xyz](https://matcha.xyz)
 - **Projects**: [OpenBurner.xyz](https://openburner.xyz), [Grokblock.app](https://grokblock.app), [Gelp.app](https://gelp.app)
 
-<img src="[rdyplayerB.png](https://raw.githubusercontent.com/rdyplayerB/rdyplayerB/main/metrics.plugin.isocalendar.svg)" width="300" alt="rdyplayerB" align="left" hspace="20">
+<img src="https://raw.githubusercontent.com/rdyplayerB/rdyplayerB/main/metrics.plugin.isocalendar.svg)" width="300" alt="rdyplayerB" align="left" hspace="20">
 
 
 <img src="https://raw.githubusercontent.com/rdyplayerB/rdyplayerB/main/metrics.plugin.isocalendar.svg" alt="Isometric Commit Calendar" width="100%">
