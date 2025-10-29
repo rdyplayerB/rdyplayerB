@@ -1,7 +1,7 @@
 <img src="rdyplayerB.png" width="300" alt="rdyplayerB" align="left" hspace="20">
 
 <h3>Aloha, I'm Brent! 🤙</h3>
-<p><strong>Generalist operator | Web3 + AI builder | Customer success, community, growth</strong></p>
+<strong>Generalist operator | Web3 + AI builder | Customer success, community, growth</strong>
 
 <br clear="all">
 
@@ -11,7 +11,7 @@
 - **Previous**: ex-[0x](https://0x.org), [Matcha.xyz](https://matcha.xyz)
 - **Projects**: [OpenBurner.xyz](https://openburner.xyz), [Grokblock.app](https://grokblock.app), [Gelp.app](https://gelp.app)
 
-<img src="https://raw.githubusercontent.com/rdyplayerB/rdyplayerB/main/metrics.plugin.isocalendar.svg)" width="300" alt="rdyplayerB" align="left" hspace="20">
+<img src="https://raw.githubusercontent.com/rdyplayerB/rdyplayerB/main/metrics.plugin.isocalendar.svg)" width="300" alt="Isocalendar" align="right" hspace="20">
 
 
 <img src="https://raw.githubusercontent.com/rdyplayerB/rdyplayerB/main/metrics.plugin.isocalendar.svg" alt="Isometric Commit Calendar" width="50%" align="right">
