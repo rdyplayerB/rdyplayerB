@@ -1,11 +1,12 @@
 <img src="rdyplayerB.png" width="300" alt="rdyplayerB" align="left" hspace="20">
 <img src="https://raw.githubusercontent.com/rdyplayerB/rdyplayerB/main/metrics.plugin.isocalendar.svg" alt="Isometric Commit Calendar" width="50%" align="right">
 
+<br clear="all">
+
 
 <h3>Aloha, I'm Brent! 🤙</h3>
 <strong>Generalist operator | Web3 + AI builder | Customer success, community, growth</strong>
 
-<br clear="all">
 
 ### // About Me
 
