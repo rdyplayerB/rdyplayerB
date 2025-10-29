@@ -1,7 +1,7 @@
-<table>
+<table border="0">
 <tr>
-<td width="200">
-<img src="rdyplayerB.png" width="200" alt="rdyplayerB">
+<td width="300">
+<img src="rdyplayerB.png" width="300" alt="rdyplayerB">
 </td>
 <td>
 <h2>Aloha, I'm Brent! 🤙</h2>
