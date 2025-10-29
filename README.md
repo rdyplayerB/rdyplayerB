@@ -1,22 +1,10 @@
-<table style="border: 0; border-collapse: collapse; width: 100%; border-spacing: 0;">
-<tr style="border: 0;">
-<td style="border: 0; padding: 0; width: 100%; vertical-align: top;">
-
 <img src="rdyplayerB.png" width="300" alt="rdyplayerB" align="left" hspace="20">
 <clear all>
 
 ### // Aloha, I'm Brent! 🤙
 Generalist operator | Web3 + AI builder | Customer success, community, growth
 
-</td>
-</tr>
-</table>
-
 <div style="clear: both;"></div>
-
-<table style="border: 0; border-collapse: collapse; width: 100%; border-spacing: 0;">
-<tr style="border: 0;">
-<td style="border: 0; padding: 0; width: 50%; vertical-align: top;">
 
 ## // About Me
 
@@ -25,14 +13,7 @@ Generalist operator | Web3 + AI builder | Customer success, community, growth
 - **Projects**: [OpenBurner.xyz](https://openburner.xyz), [Grokblock.app](https://grokblock.app), [Gelp.app](https://gelp.app)
 - **Focus**: Web3 infrastructure, AI applications, and user experience
 
-</td>
-<td style="border: 0; padding: 0; width: 50%; vertical-align: top;">
-
 <img src="https://raw.githubusercontent.com/rdyplayerB/rdyplayerB/main/metrics.plugin.isocalendar.svg" alt="Isometric Commit Calendar" width="100%">
-
-</td>
-</tr>
-</table>
 
 ### // Let's chat
 - [rdyplayerB@gmail.com](mailto:rdyplayerB@gmail.com)
