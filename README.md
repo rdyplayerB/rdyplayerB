@@ -19,7 +19,7 @@
 </td>
 <td style="border: 0; padding: 0; width: 50%; vertical-align: top;">
 
-![Isometric Commit Calendar](https://raw.githubusercontent.com/rdyplayerB/rdyplayerB/main/metrics.plugin.isocalendar.svg)
+<img src="https://raw.githubusercontent.com/rdyplayerB/rdyplayerB/main/metrics.plugin.isocalendar.svg" alt="Isometric Commit Calendar" width="100%">
 
 </td>
 </tr>
