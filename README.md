@@ -6,7 +6,7 @@ Generalist operator | Web3 + AI builder | Customer success, community, growth
 
 <div style="clear: both;"></div>
 
-## // About Me
+### // About Me
 
 - **Current**: Building at [Arx Research](https://arxresearch.com) / [Burner](https://burner.pro)
 - **Previous**: ex-[0x](https://0x.org), [Matcha.xyz](https://matcha.xyz)
