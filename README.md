@@ -1,13 +1,19 @@
+<table style="border: 0; border-collapse: collapse; width: 100%; border-spacing: 0;">
+<tr style="border: 0;">
+<td style="border: 0; padding: 0; width: 50%; vertical-align: top;">
+
 <img src="rdyplayerB.png" width="300" alt="rdyplayerB" align="left" hspace="20">
 <clear all>
 
-<h3>Aloha, I'm Brent! 🤙</h3>
-<p>Generalist operator | Web3 + AI builder | Customer success, community, growth</p>
+### // Aloha, I'm Brent! 🤙
+Generalist operator | Web3 + AI builder | Customer success, community, growth
+
+</td>
+</tr>
+</table>
 
 <div style="clear: both;"></div>
 
-### // Aloha, I'm Brent! 🤙
-Generalist operator | Web3 + AI builder | Customer success, community, growth
 
 <table style="border: 0; border-collapse: collapse; width: 100%; border-spacing: 0;">
 <tr style="border: 0;">
