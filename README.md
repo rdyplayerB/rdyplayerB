@@ -10,8 +10,6 @@ Generalist operator | Web3 + AI builder | Customer success, community, growth
 - **Projects**: [OpenBurner.xyz](https://openburner.xyz), [Grokblock.app](https://grokblock.app), [Gelp.app](https://gelp.app)
 - **Focus**: Web3 infrastructure, AI applications, and user experience
 
-<img src="https://raw.githubusercontent.com/rdyplayerB/rdyplayerB/main/metrics.plugin.isocalendar.svg" alt="Isometric Commit Calendar" width="100%">
-
 ### // Let's chat
 - [rdyplayerB@gmail.com](mailto:rdyplayerB@gmail.com)
 - [github.com/rdyplayerB](https://github.com/rdyplayerB)
