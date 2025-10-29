@@ -1,6 +1,13 @@
 # Hi there, I'm Brent! 👋
 
-Welcome to my GitHub profile! Here you'll find my coding journey, projects, and contributions.
+**Generalist operator | Web3 + AI builder | Customer success, community, growth**
+
+## 🚀 About Me
+
+- **Current**: Building at Arx Research / Burner
+- **Previous**: ex-0x, Matcha.xyz
+- **Projects**: OpenBurner.xyz, Grokblock.app, Gelp.app
+- **Focus**: Web3 infrastructure, AI applications, and user experience
 
 ## 📅 Isometric Commit Calendar
 
@@ -8,35 +15,22 @@ Welcome to my GitHub profile! Here you'll find my coding journey, projects, and 
 
 *Beautiful 3D visualization of my commit activity over the past year*
 
-## 📊 GitHub Metrics Overview
+## 📊 GitHub Metrics
 
 ![GitHub Metrics](https://raw.githubusercontent.com/rdyplayerB/rdyplayerB/main/metrics.svg)
-
-## 🚀 About Me
-
-- 🔭 I'm currently working on various software projects
-- 🌱 I'm always learning new technologies and best practices
-- 👯 I'm looking to collaborate on open source projects
-- 💬 Ask me about Python, TypeScript, or software architecture
-- 📫 How to reach me: [Your contact information]
-- ⚡ Fun fact: I love solving complex problems with elegant solutions
 
 ## 🛠️ Tech Stack
 
 - **Languages**: Python, TypeScript, JavaScript
 - **Frameworks**: React, Node.js, FastAPI
 - **Tools**: Git, Docker, AWS, GitHub Actions
-- **Databases**: PostgreSQL, MongoDB, Redis
+- **Specialties**: Web3, Smart Contracts, AI/ML, Customer Success
 
-## 📊 GitHub Stats
+## 📫 Let's Connect
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=rdyplayerB&show_icons=true&theme=dark&hide_border=true)
-
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=rdyplayerB&layout=compact&theme=dark&hide_border=true)
-
-## 🏆 GitHub Trophies
-
-![trophy](https://github-profile-trophy.vercel.app/?username=rdyplayerB&theme=darkhub&no-frame=true&column=7)
+- 💬 Ask me about Web3, AI, or building great user experiences
+- 🌐 Building the future of decentralized applications
+- ⚡ Always excited to collaborate on innovative projects
 
 ---
 
