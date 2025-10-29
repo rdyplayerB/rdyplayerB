@@ -9,6 +9,12 @@
 - **Projects**: OpenBurner.xyz, Grokblock.app, Gelp.app
 - **Focus**: Web3 infrastructure, AI applications, and user experience
 
+## 📅 Isometric Commit Calendar
+
+![Isometric Commit Calendar](https://raw.githubusercontent.com/rdyplayerB/rdyplayerB/main/metrics.plugin.isocalendar.svg)
+
+*Beautiful 3D visualization of my commit activity over the past year*
+
 ## 📫 Let's chat
 
 - 💬 Ask me about Web3, AI, or building great user experiences
