@@ -1,3 +1,5 @@
+![rdyplayerB](rdyplayerB.png)
+
 > **Aloha, I'm Brent!** 🤙  
 > **Generalist operator | Web3 + AI builder | Customer success, community, growth**
 
