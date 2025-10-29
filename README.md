@@ -13,6 +13,8 @@
 
 [https://raw.githubusercontent.com/rdyplayerB/rdyplayerB/main/metrics.plugin.isocalendar.svg](https://raw.githubusercontent.com/rdyplayerB/rdyplayerB/main/metrics.plugin.isocalendar.svg)
 
+https://raw.githubusercontent.com/rdyplayerB/rdyplayerB/main/metrics.plugin.isocalendar.svg
+
 ### // Let's chat
 
 - [rdyplayerB@gmail.com](mailto:rdyplayerB@gmail.com)
