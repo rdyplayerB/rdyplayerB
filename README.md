@@ -19,6 +19,7 @@
 ├── [github.com/rdyplayerB](https://github.com/rdyplayerB)
 ├── [linkedin.com/in/brentoshiro](https://linkedin.com/in/brentoshiro)
 └── [x.com/rdyplayerB](https://x.com/rdyplayerB)
+└── [farcaster.xyz/rdyplayerb](https://farcaster.xyz/rdyplayerb)
 
 ---
 
