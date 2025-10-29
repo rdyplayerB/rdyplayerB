@@ -3,7 +3,7 @@
 <h2>Aloha, I'm Brent! 🤙</h2>
 <p><strong>Generalist operator | Web3 + AI builder | Customer success, community, growth</strong></p>
 
-<br clear="all">
+<div style="clear: both;"></div>
 
 ---
 
