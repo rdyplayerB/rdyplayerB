@@ -18,4 +18,4 @@
 - [x.com/rdyplayerB](https://x.com/rdyplayerB)
 - [farcaster.xyz/rdyplayerb](https://farcaster.xyz/rdyplayerb)
 
-<img src="https://raw.githubusercontent.com/rdyplayerB/rdyplayerB/main/metrics.plugin.isocalendar.svg" alt="Isometric Commit Calendar" width="50%" align="right">
+<img src="https://raw.githubusercontent.com/rdyplayerB/rdyplayerB/main/metrics.plugin.isocalendar.svg" alt="Isometric Commit Calendar" width="300" alt="rdyplayerB" align="left" hspace="20">
