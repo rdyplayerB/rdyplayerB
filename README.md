@@ -19,10 +19,6 @@
 
 ## // Let's chat
 
-- 💬 Ask me about Web3, AI, or building great user experiences
-- 🌐 Building the future of decentralized applications
-- ⚡ Always excited to collaborate on innovative projects
-
 ```
 .
 ├── rdyplayerB@gmail.com
