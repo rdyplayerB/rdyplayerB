@@ -1,4 +1,9 @@
-<p align="center"><img src="assets/hero.svg" width="100%" alt="Pretty fly for an AI guy. Zero-to-one builder. Contribution graph."></p>
+<p align="center">
+<picture>
+<source media="(prefers-color-scheme: light)" srcset="assets/hero-light.svg">
+<img src="assets/hero.svg" width="100%" alt="Pretty fly for an AI guy. Zero-to-one builder. Contribution graph.">
+</picture>
+</p>
 
 <p align="center">
 Building at <a href="https://quip.network">quip.network</a> and <a href="https://burner.pro">burner.pro</a><br>
