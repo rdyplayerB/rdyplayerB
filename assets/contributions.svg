@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="810" height="202" viewBox="0 0 810 202" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace">
 <rect width="810" height="202" rx="6" fill="#0a0703"/>
 <defs><filter id="g" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="1.6" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>
-<text x="22" y="34" font-size="14" font-weight="bold" fill="#ffe688">2,888 CONTRIBUTIONS IN THE LAST YEAR</text>
+<text x="22" y="34" font-size="14" font-weight="bold" fill="#ffe688">2,892 CONTRIBUTIONS IN THE LAST YEAR</text>
 <line x1="22" y1="44" x2="788" y2="44" stroke="#4a3005"/>
 <text x="58" y="56" font-size="10" fill="#c89016">DEC</text>
 <text x="114" y="56" font-size="10" fill="#c89016">JAN</text>
@@ -39,7 +39,7 @@
 <rect x="72" y="120" width="11" height="11" rx="2" fill="#5a3a06"/>
 <rect x="72" y="134" width="11" height="11" rx="2" fill="#1c1407"/>
 <rect x="72" y="148" width="11" height="11" rx="2" fill="#5a3a06"/>
-<rect x="86" y="64" width="11" height="11" rx="2" fill="#1c1407"/>
+<rect x="86" y="64" width="11" height="11" rx="2" fill="#5a3a06"/>
 <rect x="86" y="78" width="11" height="11" rx="2" fill="#5a3a06"/>
 <rect x="86" y="92" width="11" height="11" rx="2" fill="#1c1407"/>
 <rect x="86" y="106" width="11" height="11" rx="2" fill="#1c1407"/>
@@ -76,11 +76,11 @@
 <rect x="142" y="148" width="11" height="11" rx="2" fill="#1c1407"/>
 <rect x="156" y="64" width="11" height="11" rx="2" fill="#5a3a06"/>
 <rect x="156" y="78" width="11" height="11" rx="2" fill="#5a3a06"/>
-<rect x="156" y="92" width="11" height="11" rx="2" fill="#5a3a06"/>
+<rect x="156" y="92" width="11" height="11" rx="2" fill="#1c1407"/>
 <rect x="156" y="106" width="11" height="11" rx="2" fill="#5a3a06"/>
 <rect x="156" y="120" width="11" height="11" rx="2" fill="#5a3a06"/>
 <rect x="156" y="134" width="11" height="11" rx="2" fill="#5a3a06"/>
-<rect x="156" y="148" width="11" height="11" rx="2" fill="#1c1407"/>
+<rect x="156" y="148" width="11" height="11" rx="2" fill="#5a3a06"/>
 <rect x="170" y="64" width="11" height="11" rx="2" fill="#1c1407"/>
 <rect x="170" y="78" width="11" height="11" rx="2" fill="#5a3a06"/>
 <rect x="170" y="92" width="11" height="11" rx="2" fill="#1c1407"/>
@@ -94,13 +94,13 @@
 <rect x="184" y="106" width="11" height="11" rx="2" fill="#1c1407"/>
 <rect x="184" y="120" width="11" height="11" rx="2" fill="#5a3a06"/>
 <rect x="184" y="134" width="11" height="11" rx="2" fill="#5a3a06"/>
-<rect x="184" y="148" width="11" height="11" rx="2" fill="#1c1407"/>
+<rect x="184" y="148" width="11" height="11" rx="2" fill="#5a3a06"/>
 <rect x="198" y="64" width="11" height="11" rx="2" fill="#5a3a06"/>
 <rect x="198" y="78" width="11" height="11" rx="2" fill="#5a3a06"/>
 <rect x="198" y="92" width="11" height="11" rx="2" fill="#5a3a06"/>
 <rect x="198" y="106" width="11" height="11" rx="2" fill="#5a3a06"/>
 <rect x="198" y="120" width="11" height="11" rx="2" fill="#5a3a06"/>
-<rect x="198" y="134" width="11" height="11" rx="2" fill="#1c1407"/>
+<rect x="198" y="134" width="11" height="11" rx="2" fill="#5a3a06"/>
 <rect x="198" y="148" width="11" height="11" rx="2" fill="#1c1407"/>
 <rect x="212" y="64" width="11" height="11" rx="2" fill="#1c1407"/>
 <rect x="212" y="78" width="11" height="11" rx="2" fill="#1c1407"/>
@@ -229,8 +229,8 @@
 <rect x="450" y="134" width="11" height="11" rx="2" fill="#5a3a06"/>
 <rect x="450" y="148" width="11" height="11" rx="2" fill="#5a3a06"/>
 <rect x="464" y="64" width="11" height="11" rx="2" fill="#5a3a06"/>
-<rect x="464" y="78" width="11" height="11" rx="2" fill="#5a3a06"/>
-<rect x="464" y="92" width="11" height="11" rx="2" fill="#1c1407"/>
+<rect x="464" y="78" width="11" height="11" rx="2" fill="#1c1407"/>
+<rect x="464" y="92" width="11" height="11" rx="2" fill="#5a3a06"/>
 <rect x="464" y="106" width="11" height="11" rx="2" fill="#5a3a06"/>
 <rect x="464" y="120" width="11" height="11" rx="2" fill="#1c1407"/>
 <rect x="464" y="134" width="11" height="11" rx="2" fill="#1c1407"/>
@@ -256,7 +256,7 @@
 <rect x="506" y="120" width="11" height="11" rx="2" fill="#1c1407"/>
 <rect x="506" y="134" width="11" height="11" rx="2" fill="#1c1407"/>
 <rect x="506" y="148" width="11" height="11" rx="2" fill="#5a3a06"/>
-<rect x="520" y="64" width="11" height="11" rx="2" fill="#a8740c"/>
+<rect x="520" y="64" width="11" height="11" rx="2" fill="#5a3a06"/>
 <rect x="520" y="78" width="11" height="11" rx="2" fill="#5a3a06"/>
 <rect x="520" y="92" width="11" height="11" rx="2" fill="#5a3a06"/>
 <rect x="520" y="106" width="11" height="11" rx="2" fill="#1c1407"/>
@@ -333,7 +333,7 @@
 <rect x="660" y="120" width="11" height="11" rx="2" fill="#1c1407"/>
 <rect x="660" y="134" width="11" height="11" rx="2" fill="#1c1407"/>
 <rect x="660" y="148" width="11" height="11" rx="2" fill="#1c1407"/>
-<rect x="674" y="64" width="11" height="11" rx="2" fill="#5a3a06"/>
+<rect x="674" y="64" width="11" height="11" rx="2" fill="#1c1407"/>
 <rect x="674" y="78" width="11" height="11" rx="2" fill="#a8740c"/>
 <rect x="674" y="92" width="11" height="11" rx="2" fill="#5a3a06"/>
 <rect x="674" y="106" width="11" height="11" rx="2" fill="#5a3a06"/>
@@ -379,12 +379,13 @@
 <rect x="758" y="78" width="11" height="11" rx="2" fill="#5a3a06"/>
 <rect x="758" y="92" width="11" height="11" rx="2" fill="#5a3a06"/>
 <rect x="758" y="106" width="11" height="11" rx="2" fill="#a8740c"/>
-<rect x="758" y="120" width="11" height="11" rx="2" fill="#5a3a06"/>
+<rect x="758" y="120" width="11" height="11" rx="2" fill="#a8740c"/>
 <rect x="758" y="134" width="11" height="11" rx="2" fill="#5a3a06"/>
-<rect x="758" y="148" width="11" height="11" rx="2" fill="#5a3a06"/>
+<rect x="758" y="148" width="11" height="11" rx="2" fill="#1c1407"/>
 <rect x="772" y="64" width="11" height="11" rx="2" fill="#5a3a06"/>
 <rect x="772" y="78" width="11" height="11" rx="2" fill="#5a3a06"/>
 <rect x="772" y="92" width="11" height="11" rx="2" fill="#a8740c"/>
+<rect x="772" y="106" width="11" height="11" rx="2" fill="#1c1407"/>
 <text x="648" y="189" font-size="10" fill="#c89016">LESS</text>
 <rect x="682" y="180" width="11" height="11" rx="2" fill="#1c1407"/>
 <rect x="696" y="180" width="11" height="11" rx="2" fill="#5a3a06"/>
