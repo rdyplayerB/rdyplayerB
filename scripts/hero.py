@@ -80,15 +80,20 @@ THEMES = {
 def render(P, OUT):
     # ---------- svg ----------
     NCLS = 14
+    PER = 8.0
     o = [f'<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}">']
     css = [f"@font-face{{font-family:HM;src:url(data:font/{FONTS['reg']['fmt']};base64,{FONTS['reg']['b64']}) format('{FONTS['reg']['fmt']}')}}",
            f"@font-face{{font-family:HM;font-weight:bold;src:url(data:font/{FONTS['bold']['fmt']};base64,{FONTS['bold']['b64']}) format('{FONTS['bold']['fmt']}')}}",
            "text{font-family:HM,ui-monospace,Menlo,Consolas,monospace;font-size:16.6px}",
            ".b{font-weight:bold}",
            # one travelling wave packet = a column bobs once as it passes; two packets per 20s loop
-           ".w{animation:rip 10s ease-in-out infinite}",
-           "@keyframes rip{0%{transform:translate(0,0)}3%{transform:translate(1.4px,-3.2px)}6%{transform:translate(-1.4px,3.2px)}"
-           "9%{transform:translate(.7px,-1.4px)}12%,100%{transform:translate(0,0)}}"]
+           f".w{{animation:rip {PER}s linear infinite}}",
+           # one wave packet per loop; it leaves on the right exactly as the next enters on the left
+           "@keyframes rip{0%{transform:translate(0,0);animation-timing-function:ease-in-out}"
+           "4%{transform:translate(1.4px,-3.2px);animation-timing-function:ease-in-out}"
+           "8%{transform:translate(-1.4px,3.2px);animation-timing-function:ease-in-out}"
+           "12%{transform:translate(.7px,-1.4px);animation-timing-function:ease-in-out}"
+           "16%,100%{transform:translate(0,0)}}"]
     for i in range(NCLS):
         t = (i + 0.5) / NCLS
         css.append(f'.c{i}{{fill:{"url(#foil)" if P.get("light") and t > 0.5 else P["glyph"](t)}}}')
@@ -103,8 +108,8 @@ def render(P, OUT):
              '<stop offset=".7" stop-color="#e8b02a"/><stop offset="1" stop-color="#a86f0a"/></linearGradient></defs>' % (W, H))
     o.append('<g clip-path="url(#clip)">')
     o.append(f'<rect width="{W}" height="{H}" fill="{P["bg"]}"/>')
-    if P.get('light'):
-        o.append(f'<image href="data:image/png;base64,{GLOW}" x="0" y="0" width="{W}" height="{H}" preserveAspectRatio="none"/>')
+    if P.get('light'):   # glow image defined once; each wave group shows its own slice so the halo ripples with the glyphs
+        o.append(f'<defs><image id="gl" href="data:image/png;base64,{GLOW}" x="0" y="0" width="{W}" height="{H}" preserveAspectRatio="none"/></defs>')
 
     # marble glyphs, grouped by column and 4-row band so each group can ride the wave
     BAND = 4
@@ -117,9 +122,18 @@ def render(P, OUT):
                 if gi == 0: continue
                 cls = min(NCLS - 1, int(max(v, 0.2) * NCLS))
                 items.append(f'<text x="{c*CW}" y="{r*CH+15}" class="c{cls}">{html.escape(GLYPHS[gi])}</text>')
-            if not items: continue
-            delay = 6.0 * c / COLS + 0.35 * math.sin(b0 * 0.45 + c * 0.02)   # slightly curved wavefront
-            o.append(f'<g class="w" style="animation-delay:{delay:.2f}s">' + ''.join(items) + '</g>')
+            glow = ''
+            if P.get('light'):
+                near = any(M['v'][rr][cc] * dimk(rr, cc) > 0.45
+                           for rr in range(max(0, b0 - 1), min(ROWS, b0 + BAND + 1))
+                           for cc in range(max(0, c - 2), min(COLS, c + 3)))
+                if near:
+                    k = f'k{c}_{b0}'
+                    glow = (f'<clipPath id="{k}"><rect x="{c*CW}" y="{b0*CH}" width="{CW}" height="{BAND*CH}"/></clipPath>'
+                            f'<use href="#gl" clip-path="url(#{k})"/>')
+            if not items and not glow: continue
+            delay = -(PER * (1 - c / COLS)) + 0.35 * math.sin(b0 * 0.45)   # curved front; seamless wrap right -> left
+            o.append(f'<g class="w" style="animation-delay:{delay:.3f}s">' + glow + ''.join(items) + '</g>')
 
     # tagline
     def T(x, y, s, fill, bold=False, size=None, extra=''):
