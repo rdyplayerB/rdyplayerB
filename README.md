@@ -1,4 +1,4 @@
-<p align="center"><img src="assets/profile-v2.gif" width="100%" alt="Pretty fly for an AI guy. zero-to-one builder. Now: quip.network, burner.pro. Prev: 0x.org, matcha.xyz. Art: Quantum Echoes, #1 ETH art on OpenSea. Links: birudo.dev, @rdyplayerB, in/brentoshiro"></p>
+<p align="center"><img src="assets/profile-v3.gif" width="100%" alt="Pretty fly for an AI guy. zero-to-one builder. Now: quip.network, burner.pro. Prev: 0x.org, matcha.xyz. Art: Quantum Echoes, #1 ETH art on OpenSea. Links: birudo.dev, @rdyplayerB, in/brentoshiro"></p>
 <p align="center">
 <a href="https://quip.network">quip.network</a> ·
 <a href="https://burner.pro">burner.pro</a> ·
