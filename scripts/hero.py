@@ -11,7 +11,7 @@ def data(name):
     for p in (os.path.join(HERE, name), os.path.join(HERE, '..', 'assets', name)):
         if os.path.exists(p): return json.load(open(p))
     raise FileNotFoundError(name)
-M = data('marble.json'); FONTS = data('fonts.json')
+M = data('marble.json'); FONTS = data('fonts.json'); GLOW = data('glow.json')['b64']
 
 # ---------- contributions ----------
 class P(HTMLParser):
@@ -73,7 +73,7 @@ THEMES = {
   'dark': dict(glyph=lambda t: gold(0.28 + 0.80 * t ** 0.8), bg='#050301', panel='#070402', title='#fff6dc', tag='#ffd35c',
                rule='#7a5208', stroke='#5a3d0a', label='#e8c46a', label2='#c89b3c', lv0s='#3a2a0e',
                lv=['#21180b', '#6b4708', '#b8800e', '#f2b82a', '#ffe9a0']),
-  'light': dict(glyph=lambda t: mix('#ead9b0', '#5a3604', t ** 0.85), bg='#ffffff', panel='#ffffff', title='#2e1e03', tag='#8a5a06',
+  'light': dict(light=True, glyph=lambda t: mix('#f1e2b8', '#d69a12', t ** 0.9), bg='#ffffff', panel='#ffffff', title='#3a2604', tag='#b07a0c',
                rule='#c9a55a', stroke='#d9c08a', label='#7a5a1e', label2='#8a6a2a', lv0s='#e6dcc2',
                lv=['#f5f0e4', '#ecc96a', '#d9a21e', '#a8740c', '#5e3d05']),
 }
@@ -90,15 +90,21 @@ def render(P, OUT):
            "@keyframes rip{0%{transform:translate(0,0)}3%{transform:translate(1.4px,-3.2px)}6%{transform:translate(-1.4px,3.2px)}"
            "9%{transform:translate(.7px,-1.4px)}12%,100%{transform:translate(0,0)}}"]
     for i in range(NCLS):
-        css.append(f'.c{i}{{fill:{P["glyph"]((i + 0.5) / NCLS)}}}')
+        t = (i + 0.5) / NCLS
+        css.append(f'.c{i}{{fill:{"url(#foil)" if P.get("light") and t > 0.5 else P["glyph"](t)}}}')
     o.append('<style>' + ''.join(css) + '</style>')
     o.append('<defs><clipPath id="clip"><rect width="%d" height="%d" rx="8"/></clipPath>'
              '<filter id="g" x="-80%%" y="-80%%" width="260%%" height="260%%"><feGaussianBlur stdDeviation="2.4" result="b"/>'
              '<feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>'
              '<linearGradient id="bev" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fff" stop-opacity=".22"/>'
-             '<stop offset=".5" stop-color="#fff" stop-opacity="0"/><stop offset="1" stop-color="#000" stop-opacity=".25"/></linearGradient></defs>' % (W, H))
+             '<stop offset=".5" stop-color="#fff" stop-opacity="0"/><stop offset="1" stop-color="#000" stop-opacity=".25"/></linearGradient>'
+             '<linearGradient id="foil" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="180" y2="90" spreadMethod="reflect">'
+             '<stop offset="0" stop-color="#9a6508"/><stop offset=".35" stop-color="#e3a91c"/><stop offset=".55" stop-color="#ffe17a"/>'
+             '<stop offset=".7" stop-color="#e8b02a"/><stop offset="1" stop-color="#a86f0a"/></linearGradient></defs>' % (W, H))
     o.append('<g clip-path="url(#clip)">')
     o.append(f'<rect width="{W}" height="{H}" fill="{P["bg"]}"/>')
+    if P.get('light'):
+        o.append(f'<image href="data:image/png;base64,{GLOW}" x="0" y="0" width="{W}" height="{H}" preserveAspectRatio="none"/>')
 
     # marble glyphs, grouped by column and 4-row band so each group can ride the wave
     BAND = 4
