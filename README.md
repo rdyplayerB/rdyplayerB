@@ -10,5 +10,3 @@
 <a href="https://x.com/rdyplayerB">X</a>&nbsp;&nbsp;|&nbsp;&nbsp;
 <a href="https://www.linkedin.com/in/brentoshiro">LinkedIn</a>
 </p>
-
-<p align="center"><img src="assets/contributions.svg" width="100%" alt="Contribution graph"></p>
