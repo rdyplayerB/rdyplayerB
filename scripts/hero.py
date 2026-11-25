@@ -64,7 +64,7 @@ def dimk(r, c):
         dc = max(L0 - 2 - c, 0, c - (L1 + 1))
         t = max(0.0, 1 - dr / 1.6) * max(0.0, 1 - dc / 4)
         return 1 - (1 - k) * t
-    return min(band(TR, TR + 1, 0.22), band(18.8, 30.6, 0.2))
+    return min(band(TR, TR + 1, 0.12), band(18.8, 30.6, 0.15))
 
 # ---------- svg ----------
 NCLS = 14
@@ -107,9 +107,12 @@ for c in range(COLS):
 def T(x, y, s, fill, bold=False, size=None, extra=''):
     st = f' style="font-size:{size}px"' if size else ''
     return f'<text x="{x}" y="{y}" fill="{fill}"{st}{" class=\"b\"" if bold else ""}{extra}>{html.escape(s)}</text>'
-o.append(T(L0*CW, TR*CH+15, 'PRETTY FLY FOR AN AI GUY.', '#ffe9a0', True))
+_t1 = 'PRETTY FLY FOR AN AI GUY.'
+o.append(f'<rect x="{L0*CW - 10}" y="{TR*CH - 3}" width="{len(_t1)*CW + 20}" height="{CH + 6}" rx="6" fill="#070402" fill-opacity=".92"/>')
+o.append(f'<rect x="{L1*CW - len("zero-to-one builder")*CW - 10}" y="{TR*CH - 3}" width="{len("zero-to-one builder")*CW + 20}" height="{CH + 6}" rx="6" fill="#070402" fill-opacity=".92"/>')
+o.append(T(L0*CW, TR*CH+15, _t1, '#fff6dc', True))
 tag = 'zero-to-one builder'
-o.append(T(L1*CW - len(tag)*CW, TR*CH+15, tag, '#f6c02c', True))
+o.append(T(L1*CW - len(tag)*CW, TR*CH+15, tag, '#ffd35c', True))
 o.append(T(L0*CW, (TR+1)*CH+15, '═' * (L1 - L0), '#7a5208'))
 
 # ---- contribution graph, laid out like GitHub's own (title, bordered box, months, days, Less/More) ----
@@ -117,11 +120,13 @@ SANS = "-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,
 def S(x, y, s, fill, size, anchor='start', weight='400'):
     return (f'<text x="{x}" y="{y}" fill="{fill}" text-anchor="{anchor}" '
             f'style="font-family:{SANS};font-size:{size}px;font-weight:{weight}">{html.escape(s)}</text>')
-LV = ['#1a1208', '#5a3a06', '#a8740c', '#f2b82a', '#ffe9a0']
+LV = ['#21180b', '#6b4708', '#b8800e', '#f2b82a', '#ffe9a0']
 BX, BY = L0*CW, G_BOX
 BW, BH = (L1 - L0)*CW, 214
-o.append(S(BX, BY - 12, f'{total} contributions in the last year', '#ffe9a0', 17))
-o.append(f'<rect x="{BX}" y="{BY}" width="{BW}" height="{BH}" rx="6" fill="#050301" fill-opacity=".55" stroke="#5a3d0a" stroke-width="1"/>')
+_tw = int(len(f'{total} contributions in the last year') * 8.6) + 24
+o.append(f'<rect x="{BX - 10}" y="{BY - 34}" width="{_tw}" height="30" rx="6" fill="#070402" fill-opacity=".92"/>')
+o.append(S(BX, BY - 13, f'{total} contributions in the last year', '#fff6dc', 17, weight='600'))
+o.append(f'<rect x="{BX}" y="{BY}" width="{BW}" height="{BH}" rx="6" fill="#070402" fill-opacity=".88" stroke="#5a3d0a" stroke-width="1"/>')
 GX = BX + 46; GT = BY + 40
 last = -9
 for w in range(weeks):
