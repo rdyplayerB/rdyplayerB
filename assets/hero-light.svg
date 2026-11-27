@@ -1264,6 +1264,7 @@
 <rect x="1104" y="464" width="15" height="15" rx="3" fill="#d9a21e"/>
 <rect x="1104" y="483" width="15" height="15" rx="3" fill="#ecc96a"/>
 <rect x="1104" y="502" width="15" height="15" rx="3" fill="#f5f0e4" stroke="#e6dcc2" stroke-width=".8"/>
+<rect x="1104" y="521" width="15" height="15" rx="3" fill="#f5f0e4" stroke="#e6dcc2" stroke-width=".8"/>
 <text x="943" y="592" fill="#8a6a2a" text-anchor="start" style="font-family:-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif;font-size:13px;font-weight:400">Less</text>
 <rect x="979" y="581" width="15" height="15" rx="3" fill="#f5f0e4" stroke="#e6dcc2" stroke-width=".8"/>
 <rect x="998" y="581" width="15" height="15" rx="3" fill="#ecc96a"/>
